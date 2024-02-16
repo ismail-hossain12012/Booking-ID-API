@@ -1,0 +1,4 @@
+newman run GNG.postman_collection.json -e GNG.postman_environment.json -r cli,html
+
+newman run GNG.postman_collection.json -e GNG.postman_environment.json -r cli,htmle
+xtra
