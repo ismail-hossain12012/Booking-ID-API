@@ -30,9 +30,9 @@ Handle array-based data (example)
 
 **Booking_Id_api_tests:** This file describes the API testing project.
 
-**Postman_Collections:** This folder (if applicable) holds Postman collections for different testing scenarios.
+**Postman_Collections:** This folder holds Postman collections for different testing scenarios.
 
-**Newman_Report:** This folder (if applicable) contains Newman-generated test reports.
+**Newman_Report:** This folder contains Newman-generated test reports.
 
 ## **Create_Booking**
 Create Booking is typically used to send a POST request to a server to create a new booking or reservation. This POST request includes the necessary data (such as guest details, room type, dates, etc.) in the request body, allowing the server to process and create a new booking entry in its database.
@@ -73,18 +73,23 @@ Array Example is used to demonstrate and test API requests and responses involvi
 
 <img width="675" alt="Array" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/e01a5945-4a39-483a-8d05-b43a1c2d1266">
 
+## **Postman_Environment**
+Environment is used to store and manage variables that can be used across requests in a collection. It allows users to define values such as URLs, API keys, and authentication tokens once and use them dynamically in multiple requests, making it easier to manage and maintain API tests and configurations.
+
+<img width="675" alt="Environment" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/1a2e5fe0-6e22-4903-b4dc-6853eb2b9927">
+
 ## **Newman_Report**
 Newman report" feature is used to generate detailed test reports for API collections run using the Newman command-line tool. It provides a summary of test results, including pass/fail statuses, response times, and error details, allowing users to analyze and share test results with team members or stakeholders.
 
-<img width="428" alt="Newman_Report" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/e58c4526-c87b-4909-936e-eb254c3d987d">
-<img width="725" alt="Newman_Report2" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/0419dc2a-deb0-4e91-92e0-1c847bef0dbf">
+<img width="675" alt="Newman_Report" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/e58c4526-c87b-4909-936e-eb254c3d987d">
+<img width="675" alt="Newman_Report2" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/0419dc2a-deb0-4e91-92e0-1c847bef0dbf">
 
 ## **Newman_RunCommand**
 Newman Run Command is used to execute API collections from the command line using the Newman tool. It allows users to automate the execution of tests, run them in CMD pipelines, and generate detailed reports, enhancing the efficiency and scalability of API testing processes.
 
-<img width="630" alt="Newman_RunComand" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/6c126b56-ae65-458e-8fec-4d5f2501dcc3">
+<img width="675" alt="Newman_RunComand" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/6c126b56-ae65-458e-8fec-4d5f2501dcc3">
 
-## **Data.csv:**
+## **Data.csv**
 Data.csv File is used to demonstrate and test API requests and responses involving CSV (Comma-Separated Values) data format. It allows users to import CSV files, use the data in requests, and test how the API handles CSV data, providing a practical example for working with CSV-based APIs.This file (if applicable) contains sample data used during testing, connected to the environment using variables.
 
 <img width="675" alt="Data CSV" src="https://github.com/ismail-hossain12012/Booking-ID-API/assets/76116674/53fd2886-2409-46fc-9075-20791c084b3b">
